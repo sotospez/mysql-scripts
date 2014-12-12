@@ -1,4 +1,8 @@
 
+-- Create procedure for replace all fields in database
+-- https://github.com/sotospez/mysql-scripts/
+-- sotiris pezouvanis
+
 drop procedure if exists `sotosfreplace`; 
 DELIMITER // 
 CREATE PROCEDURE `sotosfreplace` (IN var1 VARCHAR(256) ,IN var2 VARCHAR(256) ) 
